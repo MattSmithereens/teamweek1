@@ -37,7 +37,7 @@ For guitarists, this site can be used as a rudimentary theory tool and also illu
 ## Links
 
 * https://github.com/scottafraser/teamweek1
-* https://mattsmithereens.github.io/teamweek1 
+* https://mattsmithereens.github.io/teamweek1/
 
 ## License
 
