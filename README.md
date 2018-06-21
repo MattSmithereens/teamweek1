@@ -28,6 +28,9 @@ For guitarists, this site can be used as a rudimentary theory tool and also illu
 1. Click or select through form to create key and scale
 1. Click submit
 
+## Known Bugs
+
+* Mixed case image and audio file names don't render.  This was not apparent until the project was pushed to gh-pages
 
 ## Technologies Used
 
