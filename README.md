@@ -30,7 +30,7 @@ For guitarists, this site can be used as a rudimentary theory tool and also illu
 
 ## Known Bugs
 
-* Mixed case image and audio file names don't render.  This was not apparent until the project was pushed to gh-pages
+* Mixed case image and audio file names don't render.  This was not apparent until the project was pushed to gh-pages **fixed 6/19/19**
 
 ## Technologies Used
 
