@@ -19,7 +19,7 @@ For guitarists, this site can be used as a rudimentary theory tool and also illu
 |Allow user to pick a scale | click 'minor' | *further narrows down the scope of the key of C to the minor scale* |
 |Allow user to pick a genre | click 'jazz' | *shows jazz section with a jazz chord progression sample expressed by guitar tablature images and corresponding sample audio files im in the key of C minor * |
 
-
+![screen shot view](chord-generator-screenshot.png)
 
 ## Setup/Contribution Requirements
 
