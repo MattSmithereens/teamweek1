@@ -113,7 +113,7 @@ function removeSelectedClass() {
   $("#rockBtn").removeClass("selected")
 }
 $(document).ready(function () {
-  var keyC = new Key(["c", "dmin", "emin", "F", "G", "amin", "bmin"])
+  var keyC = new Key(["c", "dmin", "emin", "f", "G", "amin", "bmin"])
   keyC.findMinorScale();
   var keyDb = new Key(["db", "ebmin", "fmin", "Gb", "Ab", "bb", "cmin"])
   keyDb.findMinorScale();
@@ -123,9 +123,9 @@ $(document).ready(function () {
   keyEb.findMinorScale();
   var keyE = new Key(["E", "fsharpmin", "abmin", "A", "B", "dbmin", "ebmin"])
   keyE.findMinorScale();
-  var keyF = new Key(["F", "gmin", "amin", "Bb", "c", "dmin", "emin"])
+  var keyF = new Key(["f", "gmin", "amin", "Bb", "c", "dmin", "emin"])
   keyF.findMinorScale();
-  var keyFsharp = new Key(["Fsharp", "abmin", "bbmin", "B", "db", "ebmin", "fmin"])
+  var keyFsharp = new Key(["fsharp", "abmin", "bbmin", "B", "db", "ebmin", "fmin"])
   keyFsharp.findMinorScale();
   var keyG = new Key(["G", "amin", "bmin", "c", "d", "emin", "fsharpmin"])
   keyG.findMinorScale();;
@@ -133,9 +133,9 @@ $(document).ready(function () {
   keyAb.findMinorScale();
   var keyA = new Key(["A", "bmin", "dbmin", "d", "E", "fsharpmin", "abmin"])
   keyA.findMinorScale();
-  var keyBb = new Key(["Bb", "cmin", "dmin", "Eb", "F", "gmin", "amin"])
+  var keyBb = new Key(["Bb", "cmin", "dmin", "Eb", "f", "gmin", "amin"])
   keyBb.findMinorScale();
-  var keyB = new Key(["B", "dbmin", "ebmin", "E", "Fsharp", "abmin", "bbmin"])
+  var keyB = new Key(["B", "dbmin", "ebmin", "E", "fsharp", "abmin", "bbmin"])
   keyB.findMinorScale();
   $("#chordButton").click(function (event) {
     event.preventDefault();
