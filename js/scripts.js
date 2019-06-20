@@ -115,9 +115,9 @@ function removeSelectedClass() {
 $(document).ready(function () {
   var keyC = new Key(["c", "dmin", "emin", "F", "G", "amin", "bmin"])
   keyC.findMinorScale();
-  var keyDb = new Key(["Db", "ebmin", "fmin", "Gb", "Ab", "bb", "cmin"])
+  var keyDb = new Key(["db", "ebmin", "fmin", "Gb", "Ab", "bb", "cmin"])
   keyDb.findMinorScale();
-  var keyD = new Key(["D", "emin", "fsharpmin", "G", "A", "bmin", "dbmin"])
+  var keyD = new Key(["d", "emin", "fsharpmin", "G", "A", "bmin", "dbmin"])
   keyD.findMinorScale();
   var keyEb = new Key(["Eb", "fmin", "gmin", "Ab", "Bb", "cmin", "dmin"])
   keyEb.findMinorScale();
@@ -125,13 +125,13 @@ $(document).ready(function () {
   keyE.findMinorScale();
   var keyF = new Key(["F", "gmin", "amin", "Bb", "c", "dmin", "emin"])
   keyF.findMinorScale();
-  var keyFsharp = new Key(["Fsharp", "abmin", "bbmin", "B", "Db", "ebmin", "fmin"])
+  var keyFsharp = new Key(["Fsharp", "abmin", "bbmin", "B", "db", "ebmin", "fmin"])
   keyFsharp.findMinorScale();
-  var keyG = new Key(["G", "amin", "bmin", "c", "D", "emin", "fsharpmin"])
+  var keyG = new Key(["G", "amin", "bmin", "c", "d", "emin", "fsharpmin"])
   keyG.findMinorScale();;
-  var keyAb = new Key(["Ab", "bbmin", "cmin", "Db", "Eb", "fmin", "gmin"])
+  var keyAb = new Key(["Ab", "bbmin", "cmin", "db", "Eb", "fmin", "gmin"])
   keyAb.findMinorScale();
-  var keyA = new Key(["A", "bmin", "dbmin", "D", "E", "fsharpmin", "abmin"])
+  var keyA = new Key(["A", "bmin", "dbmin", "d", "E", "fsharpmin", "abmin"])
   keyA.findMinorScale();
   var keyBb = new Key(["Bb", "cmin", "dmin", "Eb", "F", "gmin", "amin"])
   keyBb.findMinorScale();
