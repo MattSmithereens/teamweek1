@@ -147,7 +147,7 @@ $(document).ready(function () {
       buildMajorChords(keyDb)
     } else if (key === 'keyD' && scale === 'Major') {
       buildMajorChords(keyD)
-    } else if (key === 'Eb' && scale === 'Major') {
+    } else if (key === 'keyEb' && scale === 'Major') {
       buildMajorChords(keyEb)
     } else if (key === 'keyE' && scale === 'Major') {
       buildMajorChords(keyE)
@@ -172,7 +172,7 @@ $(document).ready(function () {
       buildMinorChords(keyE)
     } else if (key === 'keyD' && scale === 'Minor') {
       buildMinorChords(keyF)
-    } else if (key === 'Eb' && scale === 'Minor') {
+    } else if (key === 'keyEb' && scale === 'Minor') {
       buildMinorChords(keyFsharp)
     } else if (key === 'keyE' && scale === 'Minor') {
       buildMinorChords(keyG)
